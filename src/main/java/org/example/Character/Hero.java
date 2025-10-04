@@ -41,4 +41,7 @@ public class Hero extends Character {
             System.out.println(name + " leveled up to " + level + " and max HP increase to " + maxHp +"!!");
         }
     }
+    public boolean hasWon(){ //har spelaren vunnit?/true om level är 10 eller högre
+        return level >= 10;
+    }
 }

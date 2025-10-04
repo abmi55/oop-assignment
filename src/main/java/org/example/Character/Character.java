@@ -24,7 +24,7 @@ public abstract class Character {
     //metod för funktionalitet
     public void takeDamage(int damage){
         this.hp -= damage;
-        if (this.hp < 0)
+        if (this.hp < 0) //Hp ska inte gå under 0
             this.hp = 0;
 }
 
