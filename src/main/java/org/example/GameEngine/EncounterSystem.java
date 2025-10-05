@@ -25,7 +25,7 @@ public class EncounterSystem {
             Monster Odin = new Boss();
             battleSystem.startBattle(hero,Odin);
         } else {
-            //20% chans för säkerplats
+            //20% chans för säker plats
             System.out.println("-----Safe zone-----");
             System.out.println(" No enemies here. ");
         }

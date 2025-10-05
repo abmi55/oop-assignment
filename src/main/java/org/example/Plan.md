@@ -27,10 +27,11 @@ Jag ska skapa ett textspel där spelaren kan strida mot olika monster och spelar
 - Turbaserat system där hjälten attackerar först
 - Fortsätter tills någon når 0 HP
 
-### Encounter system 
+### Encounter system klassen
 - 70% chans för monster
 - 10% chans för boss 
 - 20% chans för säker plats
 
-## Menu system 
-- Spelets meny 
+## Menu package
+- Spelets meny
+- Hero Status 
