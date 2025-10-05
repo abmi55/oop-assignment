@@ -32,6 +32,10 @@ Jag ska skapa ett textspel där spelaren kan strida mot olika monster och spelar
 - 10% chans för boss 
 - 20% chans för säker plats
 
+### GameEngine klassen
+- Starta spelet och initiera alla system
+- Hantera omstart
+
 ## Menu package
 - Spelets meny
 - Hero Status 
