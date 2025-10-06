@@ -31,7 +31,7 @@ public abstract class Character {
 public boolean isAlive() {
     return hp > 0;
 }
-
+//Getters och setters metoderna
     public String getName() {
         return name;
     }

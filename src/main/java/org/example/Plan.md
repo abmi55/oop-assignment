@@ -36,6 +36,8 @@ Jag ska skapa ett textspel där spelaren kan strida mot olika monster och spelar
 - Starta spelet och initiera alla system
 - Hantera omstart
 
-## Menu package
+### MenuManager klassen
 - Spelets meny
+
+### HeroStatus klassen
 - Hero Status 

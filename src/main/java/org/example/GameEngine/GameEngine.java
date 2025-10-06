@@ -5,8 +5,8 @@ import org.example.Character.Hero;
 public class GameEngine {
     private Hero hero;
     private MenuManager menuManager;
-    private EncounterSystem encounterSystem;
-    private HeroStatus heroStatus;
+
+
 
     public GameEngine(){ //Konstruktor
         this.menuManager = new MenuManager();
@@ -21,8 +21,8 @@ public class GameEngine {
 
     private void runGame() {
 
-        boolean Playing = true;
-        while (Playing){
+        boolean playing = true;
+        while (playing){
             //inreloop för sålänge hero inte är död eller har inte vunnit
             while (hero.isAlive() && !hero.hasWon()){
                 int choice = menuManager.mainMenu();
@@ -42,7 +42,7 @@ public class GameEngine {
                     System.out.println(" Welcome back Kratos!!");
                 } else {
                     System.out.println(" Bye, see you soon!!");
-                    Playing = false;
+                    playing = false;
                 }
         }
         }

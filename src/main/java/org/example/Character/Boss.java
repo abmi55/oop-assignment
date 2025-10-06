@@ -25,7 +25,7 @@ public class Boss extends Monster{
     @Override
     public void specialAttack(Character target) {
         Random random = new Random();
-        //Dubbel skada
+        //Dubbel skada +
         int damage = (15 + level) * 2 + random.nextInt(3);
         System.out.println(" !!BOSS SPECIAL ATTACK!! " + name + " does " + damage + "damage!");
         target.takeDamage(damage);
