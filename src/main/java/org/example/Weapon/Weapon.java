@@ -1,4 +1,4 @@
-package Weapon;
+package org.example.Weapon;
 
 public class Weapon {
     private String name;

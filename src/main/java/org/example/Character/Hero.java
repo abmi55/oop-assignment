@@ -1,6 +1,6 @@
 package org.example.Character;
 
-import Weapon.Weapon;
+import org.example.Weapon.Weapon;
 
 import java.util.Random;
 
@@ -10,7 +10,7 @@ public class Hero extends Character {
     //skapar ny hjälte
     public Hero(String name) {
         super(" Kratos ", 1,100);//Anropar Characters kunstruktorn
-        this.weapon = new Weapon("Blades of chaos",10);
+        this.weapon = new Weapon("Blades of chaos",13);
     }
     public Weapon getWeapon(){
         return weapon;

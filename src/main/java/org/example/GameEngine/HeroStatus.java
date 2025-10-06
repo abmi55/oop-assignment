@@ -1,4 +1,4 @@
-package org.example.Menu;
+package org.example.GameEngine;
 
 import org.example.Character.Hero;
 
