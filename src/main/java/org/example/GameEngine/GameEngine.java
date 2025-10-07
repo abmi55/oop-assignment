@@ -36,6 +36,7 @@ public class GameEngine {
             if (!hero.isAlive()){
                 System.out.println(" Kratos died in the battle!! ");
                 int restartchoice = menuManager.gameOverMenu();
+                menuManager.handleGameOverMenuChoice(restartchoice,hero);
 
                 if (restartchoice == 1){
                     this.hero = new Hero("Kratos");

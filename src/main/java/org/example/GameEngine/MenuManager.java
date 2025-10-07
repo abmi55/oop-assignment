@@ -53,5 +53,19 @@ public class MenuManager {
                 System.out.println(" Invalid choice, try again!! ");
         }
     }
+
+    public void handleGameOverMenuChoice(int choice, Hero hero) {
+        switch (choice){
+            case 1:
+                encounterSystem.randomEncounter(hero);
+                break;
+            case 2:
+                System.out.println(" Bye See you soon ");
+                System.exit(0);
+                break;
+            default:
+                System.out.println(" Invalid choice, try again!! ");
+        }
+    }
 }
 
